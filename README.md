@@ -1,3 +1,14 @@
+# Lista zadań
+
+![Screenshot strony](https://github.com/MajaCelej/to-do-list-react/blob/main/src/to-do-list-react__screenshot.png?raw=true)
+
+## Link to the website
+
+https://majacelej.github.io/to-do-list-react/
+
+## Description
+This website was created to help with everyday tasks by adding them to the list and organising. You can add new task, check it if it's done and delete if that's no longer your priority.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
