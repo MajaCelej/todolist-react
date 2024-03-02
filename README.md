@@ -4,7 +4,7 @@
 
 ## Link to the website
 
-https://majacelej.github.io/to-do-list-react/
+https://majacelej.github.io/todolist-react/
 
 ## Description
 This website was created to help with everyday tasks by adding them to the list and organising. You can add new task, check it if it's done and delete if that's no longer your priority.
