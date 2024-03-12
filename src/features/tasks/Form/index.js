@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { nanoid } from "@reduxjs/toolkit";
 import { StyledForm, Input, Button } from "./styled";
-import { addTask } from "../tasksSlice";
+import { addTask, fetchExampleTasks } from "../tasksSlice";
 
 const Form = () => {
 	const [newTaskContent, setNewTaskContent] = useState("");
@@ -28,6 +28,9 @@ const Form = () => {
 
 	return (
 		<StyledForm onSubmit={onFormSubmit}>
+			<Button onClick={() => dispatch(fetchExampleTasks())}>
+				Pobierz przykładowe zadania
+			</Button>
 			<Input value={newTaskContent} ref={inputRef} placeholder="Co jest do zrobienia?" type="text" autoComplete="off" onChange={(event) => setNewTaskContent(event.target.value)} />
 			<Button>Dodaj zadanie</Button>
 		</StyledForm>
