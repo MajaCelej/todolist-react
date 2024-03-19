@@ -2,12 +2,12 @@ import React from 'react';
 import Form from './Form';
 import TaskList from './TaskList';
 import Buttons from './Buttons';
-import Section from '../../common/Section';
-import Header from '../../common/Header'; 
-import Main from '../../common/Main';
+import Section from '../../../common/Section';
+import Header from '../../../common/Header'; 
+import Main from '../../../common/Main';
 import ExampleTasksButton from './ExampleTasksButtons';
 
-function Tasks() {
+function TasksPage() {
   return (
     <Main>
       <Header 
@@ -27,4 +27,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;
