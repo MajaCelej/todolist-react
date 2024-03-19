@@ -10,7 +10,7 @@ export const SectionHeader = styled.div`
   padding: 5px;
   margin: 0px 20px;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   justify-content: space-between;
   align-items: center;
 
