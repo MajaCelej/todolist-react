@@ -17,21 +17,6 @@ export const StyledForm = styled.form`
     }
 `;
 
-export const Input = styled.input`
-  border: 1px solid ${({ theme }) => theme.color.silver};
-  width: 700px;
-  padding: 10px;
-
-    @media (max-width: 700px) {
-        flex-basis: 100%;
-        margin-bottom: 10px;
-    }
-
-    @media (max-width: 992px) {
-        flex-basis: 100%;
-    }
-`;
-
 export const Button = styled.button`
   background-color: ${({ theme }) => theme.color.teal};
   color: ${({ theme }) => theme.color.white};
