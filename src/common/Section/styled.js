@@ -9,12 +9,11 @@ export const SectionHeader = styled.div`
   border-bottom: 2px solid ${({ theme }) => theme.color.mercury};
   padding: 5px;
   margin: 0px 20px;
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
   justify-content: space-between;
-  align-items: center;
 
     @media (max-width: 992px) {
+      display: grid;
         grid-template-columns: 1fr;
     }
 `;
