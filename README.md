@@ -1,13 +1,30 @@
 # Lista zadań
 
-![Screenshot strony](https://github.com/MajaCelej/to-do-list-react/blob/main/src/to-do-list-react__screenshot.png?raw=true)
+![Screenshot strony](https://github.com/MajaCelej/todolist-react/blob/main/ss-todolist.png?raw=true)
 
 ## Link to the website
 
 https://majacelej.github.io/todolist-react/
 
+
 ## Description
-This website was created to help with everyday tasks by adding them to the list and organising. You can add new task, check it if it's done and delete if that's no longer your priority.
+This website was created to help with everyday tasks by adding them to the list and organising. You can add new task, check its details, check it if it's done and delete if that's no longer your priority.
+
+## How to use it:
+Enter your task and add it to the list. You can see the details of a task by simply clicking on it. Mark the task as completed if you have already completed it. If you no longer need to do something, you can delete the task by clicking the red button. If you have a lot of tasks on your list, you can find the one you are looking for by entering it in the search engine. If you want to know something about me, you can check it out by klicking in "O autorze" in navigation.
+
+### Used in project:
+- HTML
+- CSS
+    - Flex
+    - Grid
+    - Media Queries
+    - Transition, Transform
+- JS/React
+    - React framework
+    - Customized Hooks
+    - Styled Components
+    - Redux (w/ Saga, Router, Toolkit)
 
 # Getting Started with Create React App
 
