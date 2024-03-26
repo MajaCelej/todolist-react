@@ -2,7 +2,11 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
   background-color: ${({ theme }) => theme.color.white};
-  max-width: 900px;
+  width: 800px;
+
+  @media (max-width: 992px) {
+      width: 500px;
+    }
 `;
 
 export const SectionHeader = styled.div`
@@ -14,7 +18,7 @@ export const SectionHeader = styled.div`
 
     @media (max-width: 992px) {
       display: grid;
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
 `;
 
