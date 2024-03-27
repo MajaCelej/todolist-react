@@ -1,4 +1,3 @@
-import React from "react";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Main from "../../../common/Main";

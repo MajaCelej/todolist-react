@@ -1,4 +1,3 @@
-import React from "react";
 import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import { toAuthor, toTask, toTasks } from "./routes";
 import TasksPage from "./features/tasks/TasksPage";

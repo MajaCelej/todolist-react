@@ -1,4 +1,3 @@
-import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchExampleTasks, selectLoading } from "../../tasksSlice.js";
 import Button from "../Button/index.js";
